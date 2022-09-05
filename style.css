@@ -5,12 +5,16 @@
   font-family: 'Overpass', sans-serif;
 }
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
   font-size: 15px;
   padding: 1.5rem;
   background-color: hsl(216, 12%, 8%);
 }
 .card {
-  margin: 30% auto 2px;
   padding: 1.3rem;
   background-color: hsl(213, 19%, 18%);
   color: white;
